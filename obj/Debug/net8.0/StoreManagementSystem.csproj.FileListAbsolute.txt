@@ -1,0 +1,14 @@
+C:\Users\kingd\source\repos\StoreManagementSystem\bin\Debug\net8.0\StoreManagementSystem.exe
+C:\Users\kingd\source\repos\StoreManagementSystem\bin\Debug\net8.0\StoreManagementSystem.deps.json
+C:\Users\kingd\source\repos\StoreManagementSystem\bin\Debug\net8.0\StoreManagementSystem.runtimeconfig.json
+C:\Users\kingd\source\repos\StoreManagementSystem\bin\Debug\net8.0\StoreManagementSystem.dll
+C:\Users\kingd\source\repos\StoreManagementSystem\bin\Debug\net8.0\StoreManagementSystem.pdb
+C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\StoreManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\StoreManagementSystem.AssemblyInfoInputs.cache
+C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\StoreManagementSystem.AssemblyInfo.cs
+C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\StoreManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\StoreManagementSystem.dll
+C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\refint\StoreManagementSystem.dll
+C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\StoreManagementSystem.pdb
+C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\StoreManagementSystem.genruntimeconfig.cache
+C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\ref\StoreManagementSystem.dll
