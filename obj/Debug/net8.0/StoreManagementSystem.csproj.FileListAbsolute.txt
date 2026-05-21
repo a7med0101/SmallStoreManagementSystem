@@ -12,3 +12,4 @@ C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\refint\StoreM
 C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\StoreManagementSystem.pdb
 C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\StoreManagementSystem.genruntimeconfig.cache
 C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\ref\StoreManagementSystem.dll
+C:\Users\kingd\source\repos\StoreManagementSystem\obj\Debug\net8.0\StoreManagementSystem.sourcelink.json
