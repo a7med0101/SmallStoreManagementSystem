@@ -10,30 +10,27 @@ namespace StoreManagementSystem
         {
 
             string choice = "";
-            PrintProUI();
-            Console.Write("Please Enter Number: ");
+            DisplayMenu();  
+            Console.Write("Please select an option: ");
             choice = Console.ReadLine();
             while (choice != null && choice != "0") 
             {
-                //PrintUI();
-                //choice = Console.ReadLine();
-
                 switch (choice)
                 {
                     case "1":
                         {
-                            ProductServices.PrintProduct();
+                            ProductServices.DisplayProducts();
                             Console.Write("Please Enter ID Of Product: ");
-                            if (int.TryParse(Console.ReadLine(), out int IdP))
+                            if (int.TryParse(Console.ReadLine(), out int productId))
                             {
-                                Console.Write("Please Enter ID Of Quantity: ");
-                                if (int.TryParse(Console.ReadLine(), out int QuP))
+                                Console.Write("Please Enter the Quantity: ");
+                                if (int.TryParse(Console.ReadLine(), out int quantity))
                                 {
-                                    var product = ProductServices.GetProduct(IdP);
+                                    var product = ProductServices.GetProduct(productId);
                                     CartItem productItem = new CartItem()
                                     {
                                         Product = product,
-                                        Quantity = QuP
+                                        Quantity = quantity
                                     };
                                     CartService.AddToCart(productItem);
                                 }
@@ -61,7 +58,7 @@ namespace StoreManagementSystem
                         }
                     case "3":
                         {
-                            PrintCartUI();
+                            DisplayCart();
                             break;
                         }
                     case "4":
@@ -70,9 +67,9 @@ namespace StoreManagementSystem
                             string nameOfProduct = Console.ReadLine();
                             if (!int.TryParse(nameOfProduct, out int name ))
                             {
-                                if (IsProduct(nameOfProduct))
+                                if (FoundProduct(nameOfProduct))
                                 {
-                                    PrintProdWithNameUI(nameOfProduct);
+                                    DisplayProductByName(nameOfProduct);
                                 }
                                 else
                                     Console.WriteLine("Sorry The Product Not Found!!!");
@@ -86,18 +83,18 @@ namespace StoreManagementSystem
             }
             
         }
-        public static bool IsProduct(string nameOfproduct)
+        public static bool FoundProduct(string nameOfproduct)
         {
             return Store.products.Any(p => p.Name.ToLower() == nameOfproduct);
         }
-        public static void PrintProdWithNameUI(string product)
+        public static void DisplayProductByName(string product)
         {
             var product1 = Store.products.Find(p => p.Name.ToLower() == product);
             Console.WriteLine($"ID: {product1.Id} | Price: {product1.Price}");
             
         }
 
-        public static void PrintCartUI() 
+        public static void DisplayCart() 
         {
             var cartItem = CartService.cart;
             foreach (CartItem cart in cartItem) 
@@ -106,7 +103,7 @@ namespace StoreManagementSystem
             var result = CartService.GetTotal();
             Console.WriteLine($"{result}$");
         }
-        public static void PrintProUI()
+        public static void DisplayMenu()
         {
             Console.WriteLine("===== Fruit Store =====");
             Console.WriteLine("1/Add to Cart");

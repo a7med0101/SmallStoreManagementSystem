@@ -30,7 +30,7 @@ namespace StoreManagementSystem.Services
             p.Stock = stock;
         }
 
-        public static void PrintProduct()
+        public static void DisplayProducts()
         {
 
             foreach (Product product in Store.products)
