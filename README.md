@@ -5,10 +5,12 @@
 - View cart with total price
 - Search products by name
 - Error handling for invalid inputs
+- Search customr by ID
   
 ## Updates
 - Added error handling
 - Renamed variables and methods for better readability
+- Added search customer by ID feature
   
 ## How to run
 - Clone the repository
