@@ -77,6 +77,20 @@ namespace StoreManagementSystem
                             }
                             break;
                         }
+                    case "5":
+                        {
+                            Console.WriteLine("Please Enter Your Id: ");
+                            if (int.TryParse(Console.ReadLine(), out int CustomerId)) 
+                            {
+                                if (FoundCustomer(CustomerId))
+                                {
+                                    DisplayCustomerByID(CustomerId);
+                                }
+                                else
+                                    Console.WriteLine("Sorry Not Found!!!");
+                            }
+                        }
+                        break ;
                 }
                 Console.Write("Please Enter Number: ");
                 choice = Console.ReadLine();
@@ -92,6 +106,17 @@ namespace StoreManagementSystem
             var product1 = Store.products.Find(p => p.Name.ToLower() == product);
             Console.WriteLine($"ID: {product1.Id} | Price: {product1.Price}");
             
+        }
+
+        public static bool FoundCustomer(int CustomerName)
+        {
+            return Store.customers.Any(c => c.Id == CustomerName);
+        }
+
+        public static void DisplayCustomerByID(int CustomerId) 
+        {
+            var Customer = Store.customers.Find(i => i.Id == CustomerId);
+            Console.WriteLine($"Name: {Customer.Name}\nPhoneNumber: {Customer.PhoneNumber}\nAddress: {Customer.Address}");
         }
 
         public static void DisplayCart() 
@@ -110,6 +135,7 @@ namespace StoreManagementSystem
             Console.WriteLine("2/Remove from Cart");
             Console.WriteLine("3/View Cart");
             Console.WriteLine("4/Search Product");
+            Console.WriteLine("5/Search Customer");
             Console.WriteLine("0/Exit");
         }
 
