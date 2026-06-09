@@ -10,7 +10,6 @@ namespace StoreManagementSystem.DataStore
 {
     class Store
     {
-
         public static List<Product> products = new List<Product>()
         {
             new Product { Id = 101, Name = "Tomato", Price = 5.75, Stock = 150 },
@@ -54,9 +53,6 @@ namespace StoreManagementSystem.DataStore
             new Order { OrderID = 50009, DateOnly = new DateOnly(2026, 5, 9), CustomerID = 100109, ProductId = 109, Quantity = 10 },
             new Order { OrderID = 50010, DateOnly = new DateOnly(2026, 5, 10), CustomerID = 100110, ProductId = 110, Quantity = 3 },
         };
-
-
-
     }
 
 }

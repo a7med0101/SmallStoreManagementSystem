@@ -1,4 +1,7 @@
-﻿using StoreManagementSystem.DataStore;
+﻿using System.Net;
+using System.Runtime.InteropServices;
+using System.Xml.Linq;
+using StoreManagementSystem.DataStore;
 using StoreManagementSystem.Models;
 using StoreManagementSystem.Services;
 
@@ -11,7 +14,6 @@ namespace StoreManagementSystem
 
             string choice = "";
             DisplayMenu();  
-            Console.Write("Please select an option: ");
             choice = Console.ReadLine();
             while (choice != null && choice != "0") 
             {
@@ -73,7 +75,6 @@ namespace StoreManagementSystem
                                 }
                                 else
                                     Console.WriteLine("Sorry The Product Not Found!!!");
-
                             }
                             break;
                         }
@@ -88,15 +89,35 @@ namespace StoreManagementSystem
                                 }
                                 else
                                     Console.WriteLine("Sorry Not Found!!!");
-                            }
+                            }else
+                                Console.WriteLine("Enter a Number Only");
+                            break;
                         }
-                        break ;
+                    case "6": 
+                        {
+                            Console.Write("Name: ");
+                            string Cname = Console.ReadLine();
+                            Console.Write("Phone Number : ");
+                            string Cphone = Console.ReadLine();
+                            Console.Write("Address : ");
+                            string Caddress = Console.ReadLine();
+                            int Cid = Store.customers.Last().Id + 1;
+                            AddCustomer(Cid, Cname, Cphone, Caddress);
+                            break;
+                        }
                 }
                 Console.Write("Please Enter Number: ");
                 choice = Console.ReadLine();
             }
             
         }
+
+        public static void AddCustomer(int id, string name, string phone, string address)
+        {
+            Customer customer = new Customer() { Id = id, Name = name, PhoneNumber = phone, Address = address };
+            CustomerService.AddCustomer(customer);
+        }
+
         public static bool FoundProduct(string nameOfproduct)
         {
             return Store.products.Any(p => p.Name.ToLower() == nameOfproduct);
@@ -131,11 +152,12 @@ namespace StoreManagementSystem
         public static void DisplayMenu()
         {
             Console.WriteLine("===== Fruit Store =====");
-            Console.WriteLine("1/Add to Cart");
+            Console.WriteLine("1/View Product");
             Console.WriteLine("2/Remove from Cart");
             Console.WriteLine("3/View Cart");
             Console.WriteLine("4/Search Product");
             Console.WriteLine("5/Search Customer");
+            Console.WriteLine("6/Add Customer");
             Console.WriteLine("0/Exit");
         }
 

@@ -7,16 +7,32 @@
       "RelativeMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|c:\\users\\kingd\\source\\repos\\storemanagementsystem\\datastore\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|solutionrelative:datastore\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|c:\\users\\kingd\\source\\repos\\storemanagementsystem\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|c:\\users\\kingd\\source\\repos\\storemanagementsystem\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|solutionrelative:services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|c:\\users\\kingd\\source\\repos\\storemanagementsystem\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|c:\\users\\kingd\\source\\repos\\storemanagementsystem\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|solutionrelative:services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|c:\\users\\kingd\\source\\repos\\storemanagementsystem\\datastore\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|solutionrelative:datastore\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|c:\\users\\kingd\\source\\repos\\storemanagementsystem\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|c:\\users\\kingd\\source\\repos\\storemanagementsystem\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B1AD55-58E9-47AA-8DBA-17FD2277C7E4}|StoreManagementSystem.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,43 +42,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductServices.cs",
               "DocumentMoniker": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Services\\ProductServices.cs",
               "RelativeDocumentMoniker": "Services\\ProductServices.cs",
               "ToolTip": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Services\\ProductServices.cs",
               "RelativeToolTip": "Services\\ProductServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T10:33:53.485Z",
+              "WhenOpened": "2026-06-09T03:17:28.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T03:17:27.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Services\\CartService.cs",
+              "RelativeToolTip": "Services\\CartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T02:59:03.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T02:58:58.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T03:20:24.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Store.cs",
               "DocumentMoniker": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\DataStore\\Store.cs",
               "RelativeDocumentMoniker": "DataStore\\Store.cs",
               "ToolTip": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\DataStore\\Store.cs",
               "RelativeToolTip": "DataStore\\Store.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-03T10:23:27.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "Services\\CustomerService.cs",
               "ToolTip": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Services\\CustomerService.cs",
               "RelativeToolTip": "Services\\CustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-03T10:19:27.921Z",
               "EditorCaption": ""
@@ -75,7 +143,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\kingd\\source\\repos\\StoreManagementSystem\\Program.cs*",
               "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAADIAAAAAAAAAAAAQwGsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T05:16:07.133Z",
               "EditorCaption": ""
